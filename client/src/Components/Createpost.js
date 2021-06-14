@@ -92,7 +92,7 @@ console.log(err);
         <div className="d-flex createpost justify-content-center align-items-center">
             <div className="inner-divpost" style={{maxWidth:"500px"}}>
             <form>
-                <input name="tittle" value={tittle} onChange={update} className="d-block w-100 mb-4" type="text" placeholder="your post tittle"/>
+                <input name="tittle" value={tittle} onChange={update} className="d-block w-100 mb-4" type="text" placeholder="your post title"/>
                 <input name="caption"onChange={update} value={caption} className="d-block w-100 mb-4" type="text" placeholder="write your caption "/>
                 
                

@@ -97,7 +97,7 @@ const Home = () => {
   }
   useEffect(()=>{
     post();
-  },[])
+  })
   
   
   
