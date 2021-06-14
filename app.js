@@ -10,7 +10,6 @@ dotenv.config({path:"./.env"});
 app.use(express.json());
 require('./keys');
 
-
 app.use(require('./router/auth'));
 app.use(require('./router/Post'));
 
