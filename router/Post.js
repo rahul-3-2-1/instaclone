@@ -107,7 +107,7 @@ router.patch('/like',middleware,async (req,res)=>{
     // return res.status(200).send("already existed");
     const like=check.likes;
     if(like.includes(id))
-    {console.log("rahul");
+    {
         Post.updateOne({_id:req.body.userpost},{$pullAll:{likes:[id]}},{new:true}
             ).exec((err,result)=>{
                 if(err)

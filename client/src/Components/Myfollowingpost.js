@@ -85,7 +85,7 @@ const Myfollowingpost = () => {
   }
   useEffect(()=>{
     post();
-  },[])
+  })
   
   
   
