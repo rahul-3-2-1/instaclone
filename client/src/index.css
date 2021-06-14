@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbrand{
+  font-family: 'Bilbo Swash Caps', cursive;
+}
+.error{
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+}
+.error div{
+  max-width: 700px;
+  padding: 0 30px;
+
+}
+@media only screen and (max-width:500px)
+{
+  .profile-details{
+    width: 80% !important;
+  }
+  .correction{
+    margin-top: 20px;
+    width: 80px !important;
+  }
+  .profilecorrection{
+    font-size: 10px !important;
+  }
+}
+.active{
+  color: rgb(74, 74, 236) !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  
+ 
+  color: #fff !important;
+
+  /* background-color: #000000; */
+/* background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
+}
+#root{
+  min-height: 100vh;
+}
+.signin{
+  height: 100vh ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.inner-signin{
+  display: flex;
+  flex-direction: column;
+  width: 400px ;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgb(94, 94, 94);
+}
+.inner-signup{
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgb(94, 94, 94);
+}
+form .signuptag{
+  margin :1.5rem 0;
+}
+.signintag{
+  display: block;
+  width: 100%;
+  margin: 2rem 0;
+  padding: .3rem .7rem;
+  border: none;
+  border-bottom: 1px solid rgb(66, 59, 59);
+} 
+.signintag:focus{
+  outline:none;
+  border-bottom: 1px solid rgb(66, 59, 59);
+}
+.register{
+  text-decoration: none;
+  font-size: .9rem;
+}
+.profile-img img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+
+}
+/* .img-profile{
+  display: block !important;
+  
+  width: 160px;
+  height: 160px;
+  
+}*/
+.upper-sectionwidth{ 
+  max-width: 700px;
+  
+  padding-bottom: 1rem;
+}
+
+.profile-details{
+  width: 60%;
+}
+.about-user{
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+.user-post img{
+  border-radius: 0px !important;
+  
+}
+.home-poststyle{
+  border-bottom: .5px solid black !important;
+  padding:  .5rem;
+}
+
+.createpost{
+  min-height: 100vh;
+  
+}
+.inner-divpost{
+  padding: 3rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  
+}
+.createpost input[type="text"]
+{
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 5px 5px;
+}
+.createpost input[type="text"]:focus
+{
+  outline: none;
+}
+
+
+.upload-pic{
+  bottom: 15px;
+  left: 25%;
+  
+}
+.separate{
+  border-bottom: 0.1px solid rgb(165, 161, 161);
+}
+.link{
+  
+  list-style: none !important;
+  text-decoration: none;
+  
+
+}
+.list{
+  width: 500px ;
+  padding: 0 !important;
+}
+.navbar-sm{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width:596px)
+{
+  .logo{
+    text-align: center;
+  }
+  .list{
+    width: 396px !important;
+  }
+.navbar-sm{
+
+  flex-direction: column !important;
+}
+}
+.profile-img{
+  width: 150px;
+}
+.profilecorrection{
+  background-color: rgb(9, 9, 66);
+  padding: 0 2px;
+  font-size: 0.1rem;
+}
+.box{
+  box-shadow: 2px 2px 10px rgb(206, 198, 198);
+}
+.img-profile{
+  border: 0.1px solid rgb(179, 176, 176);
+  box-shadow: 2px 2px 10px rgb(192, 189, 189);
+
+}
+
+.post-section{
+  border-top:0.2px solid rgb(179, 179, 179) ;
+  padding-top: 15px;
+}
+.comment{
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px 6px;
+}
+.comment:focus{
+  outline: none;
+}
