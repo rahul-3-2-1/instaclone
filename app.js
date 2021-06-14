@@ -25,4 +25,4 @@ if(process.env.NODE_ENV==="production"){
 
 
 
-app.listen(PORT,()=>{console.log(`Connection suceesful ${port}`)});
+app.listen(PORT,()=>{console.log(`Connection suceesful ${PORT}`)});
